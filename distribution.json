@@ -12,7 +12,7 @@
       "name": "냥켓단 픽셀몬 서버 (Minecraft 1.20.2)",
       "description": "냥켓단 픽셀몬 서버",
       "icon": "https://raw.githubusercontent.com/LittleHoppang0308/Nyangketan_Pixelmon/refs/heads/main/images/icon.png",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.2",
       "discord": {
@@ -613,14 +613,14 @@
           }
         },
         {
-          "id": "preview_OptiFine_1.20.2_HD_U_I7_pre1.jar",
-          "name": "preview_OptiFine_1.20.2_HD_U_I7_pre1.jar",
+          "id": "OptiFine-1.20.2_HD_U_I7_pre1.jar",
+          "name": "OptiFine-1.20.2_HD_U_I7_pre1.jar",
           "type": "File",
           "artifact": {
-            "size": 7192269,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/files/mods/preview_OptiFine_1.20.2_HD_U_I7_pre1.jar",
-            "MD5": "d568142a38c41478a2e84c521c020ebe",
-            "path": "mods/preview_OptiFine_1.20.2_HD_U_I7_pre1.jar"
+            "size": 6682460,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/files/mods/OptiFine-1.20.2_HD_U_I7_pre1.jar",
+            "MD5": "bbc27791d581f9507af922238f106706",
+            "path": "mods/OptiFine-1.20.2_HD_U_I7_pre1.jar"
           }
         }
       ]
