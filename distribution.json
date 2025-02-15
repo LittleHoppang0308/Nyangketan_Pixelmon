@@ -9,12 +9,12 @@
   "servers": [
     {
       "id": "Nyangketan_Pixelmon-1.20.2",
-      "name": "냥켓단픽셀몬 서버 (Minecraft 1.20.2)",
+      "name": "냥켓단 픽셀몬 서버 (Minecraft 1.20.2)",
       "description": "냥켓단 픽셀몬 서버",
       "icon": "https://raw.githubusercontent.com/LittleHoppang0308/Nyangketan_Pixelmon/refs/heads/main/images/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.16.5",
+      "minecraftVersion": "1.20.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -24,85 +24,141 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.42",
-          "name": "Minecraft Forge (base jar)",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.2-48.1.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 212563,
-            "MD5": "8ff0086ade0cf0f1d513e72edd04348c",
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42.jar"
+            "size": 7323,
+            "MD5": "949c0683f21b0b658b79be170869127d",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/lowcodelanguage/1.20.2-48.1.0/lowcodelanguage-1.20.2-48.1.0.jar"
           },
           "subModules": [
             {
-              "id": "1.16.5-36.2.42",
+              "id": "1.20.2-48.1.0",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13577,
-                "MD5": "f38b527e26e0a0165e2118970d1a4d13",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/versions/1.16.5-forge-36.2.42/1.16.5-forge-36.2.42.json"
+                "size": 17575,
+                "MD5": "27533fff30c1352cf05e48d042a891f2",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/versions/1.20.2-forge-48.1.0/1.20.2-forge-48.1.0.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
+              "id": "net.minecraftforge:fmlcore:1.20.2-48.1.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 117561,
+                "MD5": "d45cddc3c09a69e4ae842b5d94296b07",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/fmlcore/1.20.2-48.1.0/fmlcore-1.20.2-48.1.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.2-48.1.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16516,
+                "MD5": "00247e4a0bdae57e4c87e04dadeaad47",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/javafmllanguage/1.20.2-48.1.0/javafmllanguage-1.20.2-48.1.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.2-48.1.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4921,
+                "MD5": "523c5a830dee83e32b9d7d6dbb0d2b10",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/mclanguage/1.20.2-48.1.0/mclanguage-1.20.2-48.1.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.2-48.1.0:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
-              "classpath": true,
+              "classpath": false,
               "artifact": {
-                "size": 2540080,
-                "MD5": "d5b89861a4e02bab15a111d529d99d86",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
+                "size": 2642927,
+                "MD5": "50004a00123f70e40ca0c19c54cf2c57",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.42:client",
+              "id": "net.minecraftforge:forge:1.20.2-48.1.0:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
-              "classpath": true,
+              "classpath": false,
               "artifact": {
-                "size": 4214276,
-                "MD5": "e26430416f5d1bd7c205c1b81a0fb8f8",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-client.jar"
+                "size": 4874782,
+                "MD5": "9cd5d1465b7c5a7cd9adbb1e7a18cc52",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "id": "net.minecraft:client:1.20.2-20230921.100330:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
-              "classpath": true,
+              "classpath": false,
               "artifact": {
-                "size": 11352644,
-                "MD5": "ea5c24d9963fef8cedcdc491fccdcd4f",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+                "size": 16377751,
+                "MD5": "f05425467d1e1fee8961e7dc8264b21b",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraft/client/1.20.2-20230921.100330/client-1.20.2-20230921.100330-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "id": "net.minecraft:client:1.20.2-20230921.100330:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
-              "classpath": true,
+              "classpath": false,
               "artifact": {
-                "size": 9118806,
-                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+                "size": 12871414,
+                "MD5": "1100d5d654a6aa60b61e1f807f4b68ba",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraft/client/1.20.2-20230921.100330/client-1.20.2-20230921.100330-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "id": "net.minecraft:client:1.20.2-20230921.100330:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
-              "classpath": true,
+              "classpath": false,
               "artifact": {
-                "size": 8428369,
-                "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+                "size": 10314821,
+                "MD5": "aa20ac27fa68c368e43a696244a98279",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraft/client/1.20.2-20230921.100330/client-1.20.2-20230921.100330-extra.jar"
               },
               "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.9.2",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 7768,
+                "MD5": "a4b1f17fbeea6b548c3530451e45c5c6",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:securemodules:2.2.3",
+              "name": "Minecraft Forge (securemodules)",
+              "type": "Library",
+              "artifact": {
+                "size": 95961,
+                "MD5": "5261bf55e7a031d503e4fff91289b384",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/securemodules/2.2.3/securemodules-2.2.3.jar"
+              }
             },
             {
               "id": "org.ow2.asm:asm:9.6",
@@ -111,17 +167,7 @@
               "artifact": {
                 "size": 123598,
                 "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
               }
             },
             {
@@ -131,7 +177,7 @@
               "artifact": {
                 "size": 51935,
                 "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
               }
             },
             {
@@ -141,7 +187,17 @@
               "artifact": {
                 "size": 91131,
                 "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
               }
             },
             {
@@ -151,37 +207,17 @@
               "artifact": {
                 "size": 34041,
                 "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:8.1.3",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 126747,
-                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:grossjava9hacks:1.3.3",
-              "name": "Minecraft Forge (grossjava9hacks)",
-              "type": "Library",
-              "artifact": {
-                "size": 2113,
-                "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "id": "net.minecraftforge:accesstransformers:8.1.1",
               "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 76586,
-                "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+                "size": 76622,
+                "MD5": "c6a569349fab20014d69b2bc5f147abb",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/accesstransformers/8.1.1/accesstransformers-8.1.1.jar"
               }
             },
             {
@@ -191,127 +227,107 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:4.0.0",
+              "id": "net.minecraftforge:eventbus:6.2.0",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 42873,
-                "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+                "size": 54084,
+                "MD5": "c810744a3868927fd6d186ff1c3a2d76",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/eventbus/6.2.0/eventbus-6.2.0.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:3.2.0",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 20172,
-                "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:4.0.6",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 25453,
-                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.3",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199091,
-                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.3",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31288,
-                "MD5": "615b8e62371c536f876764591990118d",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.12.1",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 732926,
-                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.6.3",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 57824,
-                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.8.3",
+              "id": "net.jodah:typetools:0.6.3",
               "name": "Minecraft Forge (typetools)",
               "type": "Library",
               "artifact": {
-                "size": 15425,
-                "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
-              "name": "Minecraft Forge (log4j-api)",
+              "id": "net.minecraftforge:forgespi:7.1.0",
+              "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                "size": 29762,
+                "MD5": "77d57be071a59d20382cb0b060bf8282",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/forgespi/7.1.0/forgespi-7.1.0.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
-              "name": "Minecraft Forge (log4j-core)",
+              "id": "net.minecraftforge:coremods:5.1.0",
+              "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "size": 24255,
+                "MD5": "0fd818972da8e7adba52dbc072c70750",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/coremods/5.1.0/coremods-5.1.0.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:modlauncher:10.1.1",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130692,
+                "MD5": "7a9f3a225920fb1455f6f0332e904eeb",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/modlauncher/10.1.1/modlauncher-10.1.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool-api:1.0",
+              "name": "Minecraft Forge (mergetool-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 2624,
+                "MD5": "848efa1631b460b715de574b2beaba8e",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/mergetool-api/1.0/mergetool-api-1.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
@@ -321,174 +337,292 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "Minecraft Forge (jopt-simple)",
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
               "type": "Library",
               "artifact": {
-                "size": 78146,
-                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
-              "id": "org.spongepowered:mixin:0.8.4",
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
               "name": "Minecraft Forge (mixin)",
               "type": "Library",
               "artifact": {
-                "size": 1069391,
-                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
-              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
-              "name": "Minecraft Forge (nashorn-core-compat)",
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
               "type": "Library",
               "artifact": {
-                "size": 2194057,
-                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:bootstrap:1.2.0",
+              "name": "Minecraft Forge (bootstrap)",
+              "type": "Library",
+              "artifact": {
+                "size": 8292,
+                "MD5": "75c68f6de3b196880c4ac892c2f99708",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/bootstrap/1.2.0/bootstrap-1.2.0.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:32.1.2-jre",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 3041591,
+                "MD5": "5fe031b3b35ed56182478811a931d617",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:failureaccess:1.0.1",
+              "name": "Minecraft Forge (failureaccess)",
+              "type": "Library",
+              "artifact": {
+                "size": 4617,
+                "MD5": "091883993ef5bfa91da01dcc8fc52236",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.2-48.1.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 256205,
+                "MD5": "7469c721f50501731dd74a5b22ef0966",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/fmlloader/1.20.2-48.1.0/fmlloader-1.20.2-48.1.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.2-48.1.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170473,
+                "MD5": "3eaffc3a680bc6c05f54befa01b3c468",
+                "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.2-48.1.0/fmlearlydisplay-1.20.2-48.1.0.jar"
               }
             }
           ]
         },
         {
-          "id": "moe.plushie.armourers_workshop.init.platform:armourers_workshop:2.0.0-beta.3@jar",
-          "name": "Armourer's Workshop",
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3004148,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/armourers_workshop-2.0.0-beta.3.jar",
-            "MD5": "727b6784e73f1daf97f4a64629c06c98"
+            "size": 164963,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/caramelChat-mc1.20.2-forge-1.2.0.jar",
+            "MD5": "103bc2716b5f4d419d50ebb072ddfed0"
           }
         },
         {
-          "id": "noppes.npcs:customnpcs:1.16.5.20220515@jar",
-          "name": "Custom NPCs",
+          "id": "com.chaosthedude:explorerscompass:1.20.2-1.3.6-forge@jar",
+          "name": "Explorer's Compass",
           "type": "ForgeMod",
           "artifact": {
-            "size": 12457390,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
-            "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
+            "size": 158336,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/ExplorersCompass-1.20.2-1.3.6-forge.jar",
+            "MD5": "9c1fb105897b36eecb5fc8e61072f4fc"
           }
         },
         {
-          "id": "goho_pixelmon_mod:goho_pixelmon_mod:1.0-SNAPSHOT@jar",
-          "name": "Goho_Pixelmon_mod",
+          "id": "net.stardustlabs:incendium:5.3.4@jar",
+          "name": "Incendium",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4967,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/goho_pixelmon_mod-1.0-SNAPSHOT.jar",
-            "MD5": "caa8ff3c9256c8812dc6fffc83b55d88"
+            "size": 4185038,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Incendium_1.20.4_v5.3.4.jar",
+            "MD5": "b4dc0021f73a817c69e30a7477675905"
           }
         },
         {
-          "id": "dareharu.haru:haru:0.47.1-SNAPSHOT@jar",
-          "name": "Haru Mod",
+          "id": "journeymap:journeymap:5.9.18@jar",
+          "name": "Journeymap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2608793,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/HaruMod-0.47.1-SNAPSHOT-unsigned.jar",
-            "MD5": "5766ab34d4d4fad9d34be3667f727521"
+            "size": 7138050,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/journeymap-1.20.2-5.9.18-forge.jar",
+            "MD5": "430c6ba3feabeede8c05f9aa6bc7a180"
           }
         },
         {
-          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
-          "name": "Memory Leak Fix",
+          "id": "de.keksuccino:konkrete:1.9.3@jar",
+          "name": "Konkrete",
           "type": "ForgeMod",
           "artifact": {
-            "size": 225324,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/memoryleakfix-1.1.5.jar",
-            "MD5": "fe7c6324891ef8f6d00ebc23f6d185a2"
+            "size": 778865,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/konkrete_forge_1.9.3_MC_1.20.2.jar",
+            "MD5": "01f601b8a7d9ab7f48ff18f6598a859d"
           }
         },
         {
-          "id": "kr.neko.sokcuri:naraechat:1.16.3-0.7.1@jar",
-          "name": "Narae Chat",
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1755294,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/naraechat-1.16.3-0.7.1.jar",
-            "MD5": "e75b886d783090db4d3c7b45c0e25f10"
+            "size": 37178,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
           }
         },
         {
-          "id": "com.pixelmonmod:pixelmon:9.1.12@jar",
-          "name": "Pixelmon Mod",
+          "id": "com.chaosthedude:naturescompass:1.20.2-1.11.5-forge@jar",
+          "name": "Nature's Compass",
           "type": "ForgeMod",
           "artifact": {
-            "size": 427522531,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/Pixelmon-1.16.5-9.1.13-universal.jar",
-            "MD5": "08f2991eaf207cdcc2bf8a48866d3b52"
+            "size": 216679,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/NaturesCompass-1.20.2-1.11.5-forge.jar",
+            "MD5": "1e6ecafe410a95d6d79abea59efe1249"
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.16.5-2.5.22@jar",
-          "name": "Simple Voice Chat",
+          "id": "fudge.notenoughcrashes:notenoughcrashes:4.4.6+1.20.2@jar",
+          "name": "Not Enough Crashes",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7720153,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.22.jar",
-            "MD5": "9d1ecaa3e01a3542d67b9e430699798a"
+            "size": 133050,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/notenoughcrashes-4.4.61.20.2-forge.jar",
+            "MD5": "fd9eaa882929f7edcf81d10148b0740d"
           }
         },
         {
-          "id": "OptiFine_1.16.5_HD_U_G8.jar",
-          "name": "OptiFine_1.16.5_HD_U_G8.jar",
-          "type": "File",
+          "id": "net.stardustlabs:nullscape:1.2.4@jar",
+          "name": "Nullscape",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 6046996,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/files/mods/OptiFine_1.16.5_HD_U_G8.jar",
-            "MD5": "e0717ba6d1674af83036ebc479fc77b4",
-            "path": "mods/OptiFine_1.16.5_HD_U_G8.jar"
+            "size": 319521,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Nullscape_1.20.4_v1.2.4.jar",
+            "MD5": "5056abb2f4e9f4f9bccb9ec05b44f586"
           }
         },
         {
-          "id": "BSL_v8.2.09.zip",
-          "name": "BSL_v8.2.09.zip",
-          "type": "File",
+          "id": "hoppang.nyangketan_pixelmon:nyangketan_pixelmon:1.0-SNAPSHOT@jar",
+          "name": "Nyangketan_pixelmon",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 954784,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09.zip",
-            "MD5": "4443556b4e0d63394f0df1297e484454",
-            "path": "shaderpacks/BSL_v8.2.09.zip"
+            "size": 5880,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/nyangketan_pixelmon-1.0-SNAPSHOT.jar",
+            "MD5": "10903bc2e80775bcb4f75d65aaed4e1f"
           }
         },
         {
-          "id": "BSL_v8.2.09p2.zip",
-          "name": "BSL_v8.2.09p2.zip",
-          "type": "File",
+          "id": "com.pixelmonmod:pixelmon:9.2.10@jar",
+          "name": "Pixelmon",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 954763,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09p2.zip",
-            "MD5": "35b7bbb0b37868ef658aa5a847ed948f",
-            "path": "shaderpacks/BSL_v8.2.09p2.zip"
+            "size": 343273711,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Pixelmon-1.20.2-9.2.10-universal.jar",
+            "MD5": "8bc9140b7a478aaa01480b719d780b25"
           }
         },
         {
-          "id": "ComplementaryUnbound_r5.1.1.zip",
-          "name": "ComplementaryUnbound_r5.1.1.zip",
-          "type": "File",
+          "id": "net.optifine:optifine:1.20.2_HD_U_I7_pre1@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 409957,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
-            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
-            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+            "size": 7192269,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/optionalon/preview_OptiFine_1.20.2_HD_U_I7_pre1.jar",
+            "MD5": "d568142a38c41478a2e84c521c020ebe"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "ComplementaryUnbound_r5.2.2.zip",
-          "name": "ComplementaryUnbound_r5.2.2.zip",
-          "type": "File",
+          "id": "net.stardustlabs:structory:1.3.4@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 441687,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/Goho/gohopixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
-            "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
-            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+            "size": 1246746,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Structory_1.20.2_v1.3.4.jar",
+            "MD5": "31c97c41cf5c98c1101134ce592a2496"
+          }
+        },
+        {
+          "id": "net.stardustlabs:structorytowers:1.0.5@jar",
+          "name": "Structory: Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 480918,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Structory_Towers_1.20.2_v1.0.5.jar",
+            "MD5": "6d3fab77fd57d4079473eafcbf214fc1"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.4.11@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2478785,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Terralith_1.20.4_v2.4.11.jar",
+            "MD5": "d05262a405a2c1e17f10eb4d4cf96797"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.3.0-beta-02+e11f161@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6056028,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/worldedit-mod-7.3.0-beta-02.jar",
+            "MD5": "f21f0b73734a15ee5fcd44240bcddc34"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.0.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1652897,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Nyangketan_Pixelmon-1.20.2-1.20.2/forgemods/required/Xaeros_Minimap_25.0.0_Forge_1.20.2.jar",
+            "MD5": "90e8a35177f0ee53cedd45cc89302d10"
           }
         }
       ]
