@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "Goho_Pixelmon-1.16.5",
+      "id": "Nyangketan_Pixelmon-1.16.5",
       "name": "냥켓단픽셀몬 서버 (Minecraft 1.20.2)",
       "description": "냥켓단 픽셀몬 서버",
       "icon": "https://raw.githubusercontent.com/LittleHoppang0308/Nyangketan_Pixelmon/refs/heads/main/images/icon.png",
@@ -374,16 +374,6 @@
             "size": 12457390,
             "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
             "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
-          }
-        },
-        {
-          "id": "goho_pixelmon_mod:goho_pixelmon_mod:1.0-SNAPSHOT@jar",
-          "name": "Goho_Pixelmon_mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4967,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/goho_pixelmon_mod-1.0-SNAPSHOT.jar",
-            "MD5": "caa8ff3c9256c8812dc6fffc83b55d88"
           }
         },
         {
