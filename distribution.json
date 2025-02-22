@@ -362,7 +362,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3004148,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/armourers_workshop-2.0.0-beta.3.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/armourers_workshop-2.0.0-beta.3.jar",
             "MD5": "727b6784e73f1daf97f4a64629c06c98"
           }
         },
@@ -372,7 +372,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 12457390,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
             "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
           }
         },
@@ -382,7 +382,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2608793,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/HaruMod-0.47.1-SNAPSHOT-unsigned.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/HaruMod-0.47.1-SNAPSHOT-unsigned.jar",
             "MD5": "5766ab34d4d4fad9d34be3667f727521"
           }
         },
@@ -392,7 +392,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 225324,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/memoryleakfix-1.1.5.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/memoryleakfix-1.1.5.jar",
             "MD5": "fe7c6324891ef8f6d00ebc23f6d185a2"
           }
         },
@@ -402,7 +402,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1755294,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/naraechat-1.16.3-0.7.1.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/naraechat-1.16.3-0.7.1.jar",
             "MD5": "e75b886d783090db4d3c7b45c0e25f10"
           }
         },
@@ -412,7 +412,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 427522531,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/Pixelmon-1.16.5-9.1.13-universal.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/Pixelmon-1.16.5-9.1.13-universal.jar",
             "MD5": "08f2991eaf207cdcc2bf8a48866d3b52"
           }
         },
@@ -422,7 +422,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7720153,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.22.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.22.jar",
             "MD5": "9d1ecaa3e01a3542d67b9e430699798a"
           }
         },
@@ -432,7 +432,7 @@
           "type": "File",
           "artifact": {
             "size": 6046996,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/files/mods/OptiFine_1.16.5_HD_U_G8.jar",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/files/mods/OptiFine_1.16.5_HD_U_G8.jar",
             "MD5": "e0717ba6d1674af83036ebc479fc77b4",
             "path": "mods/OptiFine_1.16.5_HD_U_G8.jar"
           }
@@ -443,7 +443,7 @@
           "type": "File",
           "artifact": {
             "size": 954784,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09.zip",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09.zip",
             "MD5": "4443556b4e0d63394f0df1297e484454",
             "path": "shaderpacks/BSL_v8.2.09.zip"
           }
@@ -454,7 +454,7 @@
           "type": "File",
           "artifact": {
             "size": 954763,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09p2.zip",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/files/shaderpacks/BSL_v8.2.09p2.zip",
             "MD5": "35b7bbb0b37868ef658aa5a847ed948f",
             "path": "shaderpacks/BSL_v8.2.09p2.zip"
           }
@@ -465,7 +465,7 @@
           "type": "File",
           "artifact": {
             "size": 409957,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
             "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
             "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
           }
@@ -476,7 +476,7 @@
           "type": "File",
           "artifact": {
             "size": 441687,
-            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/Goho_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
             "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
             "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
           }
