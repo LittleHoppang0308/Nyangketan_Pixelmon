@@ -407,6 +407,16 @@
           }
         },
         {
+          "id": "hoppang.nyangketan_pixelmon:nyangketan_pixelmon:1.0-SNAPSHOT@jar",
+          "name": "Nyangketan_pixelmon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5167,
+            "url": "http://minecraft.hoppang.kr/minecraft/content/nyangketan/nyangketanpixelmon/servers/nyangketan_Pixelmon-1.16.5/forgemods/required/nyangketan_pixelmon-1.0-SNAPSHOT.jar",
+            "MD5": "7a4c3e93c47dac7d2eb3cf8f5c4ae432"
+          }
+        },
+        {
           "id": "com.pixelmonmod:pixelmon:9.1.12@jar",
           "name": "Pixelmon Mod",
           "type": "ForgeMod",
